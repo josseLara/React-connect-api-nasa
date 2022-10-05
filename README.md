@@ -1,5 +1,5 @@
 
- <h1>API Nasa (Realizado con REACT)</h1>                            
+ <h1>API Nasa (Realizado con REACT - Responsive)</h1>                            
 
 <hr />
 
