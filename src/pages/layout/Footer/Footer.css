@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer{
+     width: 100vw;
+     height: 100px;
+     background-color: black;
+     color: #fff;
+     display: flex;
+     font-family: 'Poppins', sans-serif;
+     justify-content: space-between;
+     padding: 20px;
+     align-items: stretch
+}
+
+.footer__developer{
+     display: flex;
+     flex-direction: column;
+}
+.footer__developer span:first-child{
+     font-size: 0.9rem;
+}
+
+.developer__descrip{
+     display: flex;
+     flex-direction: column;
+}
+.developer__descrip span{
+     font-size: 0.7rem;
+     opacity: 0.7;
+}
+
+.red__social{
+     display: flex;
+     font-size: 0.9rem;
+     gap: 15px;
+     flex-direction: column;
+     align-items: center
+}
+.redes__icon{
+     display: flex;
+     gap: 15px;
+     font-size: 1.2rem;
+}
+.redes__icon i:hover{
+     cursor: pointer;
+}
+
+.program{
+     margin-right: 70px;
+     display: flex;
+     align-items: center;
+     gap: 5px;
+}
+.program i {
+     font-size: 0.9rem;
+}
+
+/* ===================== responsive ================================= */
+@media screen and (min-width:700px) {
+     .footer__developer span:first-child{
+          font-size: 0.9rem;
+     }
+     .developer__descrip span{
+          font-size: 0.9rem;
+     }
+     .redes__icon{
+          font-size: 2rem;
+     }
+
+     .program i {
+          font-size: 1.3rem;
+     }
+}

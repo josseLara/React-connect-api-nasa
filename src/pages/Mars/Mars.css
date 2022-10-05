@@ -1,0 +1,37 @@
+.mars {
+     width: 100%;
+     height: 100%;
+  
+}
+
+.mars__rover {
+     padding-top: 10%;
+     width: 100%;
+     max-height: fit-content;
+     display: fles;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath2783%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient2784)'%3e%3c/rect%3e%3ccircle r='15.39' cx='339.79' cy='474.24' fill='url(%23SvgjsLinearGradient2785)'%3e%3c/circle%3e%3ccircle r='38.275' cx='1410.28' cy='256.63' fill='url(%23SvgjsLinearGradient2786)'%3e%3c/circle%3e%3ccircle r='41.33' cx='533.77' cy='42.22' fill='%2343468b' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%2336386f%3b'%3e%3c/circle%3e%3ccircle r='42.98' cx='364.5' cy='182.79' fill='url(%23SvgjsLinearGradient2787)'%3e%3c/circle%3e%3ccircle r='21.355' cx='181.91' cy='319.11' fill='url(%23SvgjsLinearGradient2788)'%3e%3c/circle%3e%3ccircle r='54.13' cx='759.95' cy='351.08' fill='%2343468b' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%2336386f%3b'%3e%3c/circle%3e%3ccircle r='40.225' cx='30.85' cy='495.58' fill='%2343468b' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%2336386f%3b'%3e%3c/circle%3e%3ccircle r='38.075' cx='466.22' cy='521.84' fill='%2343468b' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%2336386f%3b'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath2783'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2784'%3e%3cstop stop-color='%230e2a47' offset='0' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%230b2239%3b'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%2300377e%3b'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='309.01' y1='474.24' x2='370.57' y2='474.24' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2785'%3e%3cstop stop-color='%23f29b7c' offset='0.1' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%237d2a0c%3b'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%23654e6b%3b'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1333.73' y1='256.63' x2='1486.83' y2='256.63' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2786'%3e%3cstop stop-color='%23f29b7c' offset='0.1' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%237d2a0c%3b'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%23654e6b%3b'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='278.54' y1='182.79' x2='450.46000000000004' y2='182.79' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2787'%3e%3cstop stop-color='%23f29b7c' offset='0.1' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%237d2a0c%3b'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%23654e6b%3b'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='139.2' y1='319.11' x2='224.62' y2='319.11' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2788'%3e%3cstop stop-color='%2332325d' offset='0.1' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%2328284a%3b'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9' data-darkreader-inline-stopcolor='' style='--darkreader-inline-stopcolor:%2335366d%3b'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+     padding-bottom: 3%;
+}
+.mars__rover h1{
+     color: #fff;
+     font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+.mars__cards {
+     margin-top: 20px;
+     display: grid;
+     grid-template-columns: 90%;
+     justify-content: center;
+}
+
+/* ===================== responsive ================================= */
+@media screen and (min-width:700px) {
+     .mars__cards{
+          grid-template-columns: 30% 30% 30%;
+     }
+
+    
+}
