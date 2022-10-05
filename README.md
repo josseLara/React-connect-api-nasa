@@ -21,10 +21,10 @@
 
 <h1>Conexión con la API </h1>
 
-<p><b>AJAX:<b> Realiza la conexion con la API (Nasa) y obtiene los datos</p>
-<p><b>components:<b> Se encuntra los componentes creados (Card, CardMars)</p>
-<p><b>Context:<b> Se encuentra los Contextos creados</p>
-<p><b>layout:<b> Solo contiene el menu ya que es estatico y no cambia</p>
-<p><b>RouterN:<b> Se encuentran las rutas de la APP </p>
+<p><b>--> AJAX:<b> Realiza la conexion con la API (Nasa) y obtiene los datos</p>
+<p><b>--> components:<b> Se encuntra los componentes creados (Card, CardMars)</p>
+<p><b>--> Context:<b> Se encuentra los Contextos creados</p>
+<p><b>--> layout:<b> Solo contiene el menu ya que es estatico y no cambia</p>
+<p><b>--> RouterN:<b> Se encuentran las rutas de la APP </p>
 
 
