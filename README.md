@@ -17,7 +17,7 @@
 ![image](https://user-images.githubusercontent.com/99273526/194173190-c1e72d04-b0fa-401e-a160-ec6eb3b156b3.png)
 
 
-
+<hr />
 
 <h1>Conexión con la API </h1>
 
